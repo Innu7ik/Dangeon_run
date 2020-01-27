@@ -1,0 +1,11 @@
+/Users/innabolotova/Projects/Game/Game/bin/Debug/netcoreapp3.1/Game
+/Users/innabolotova/Projects/Game/Game/bin/Debug/netcoreapp3.1/Game.deps.json
+/Users/innabolotova/Projects/Game/Game/bin/Debug/netcoreapp3.1/Game.runtimeconfig.json
+/Users/innabolotova/Projects/Game/Game/bin/Debug/netcoreapp3.1/Game.runtimeconfig.dev.json
+/Users/innabolotova/Projects/Game/Game/bin/Debug/netcoreapp3.1/Game.dll
+/Users/innabolotova/Projects/Game/Game/bin/Debug/netcoreapp3.1/Game.pdb
+/Users/innabolotova/Projects/Game/Game/obj/Debug/netcoreapp3.1/Game.csprojAssemblyReference.cache
+/Users/innabolotova/Projects/Game/Game/obj/Debug/netcoreapp3.1/Game.AssemblyInfoInputs.cache
+/Users/innabolotova/Projects/Game/Game/obj/Debug/netcoreapp3.1/Game.AssemblyInfo.cs
+/Users/innabolotova/Projects/Game/Game/obj/Debug/netcoreapp3.1/Game.dll
+/Users/innabolotova/Projects/Game/Game/obj/Debug/netcoreapp3.1/Game.pdb
