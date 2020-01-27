@@ -6,13 +6,10 @@ namespace Game
     {
         static void Main(string[] args)
         {
-
             string name;
             string weapon;
             int health = 5;
             
-
-
             Console.WriteLine("Введите имя игрока");
 
             name = Console.ReadLine();
@@ -31,7 +28,6 @@ namespace Game
                 weapon = "Меч";
                 Console.WriteLine("Меч? Смелый выбор!");
             }
-
             else if (userInput == "2")
             {
                 weapon = "Лук";
@@ -52,7 +48,6 @@ namespace Game
                 weapon = "Лесная фея";
                 Console.WriteLine("Сегодня ты лесная фея");
             }
-
             Console.WriteLine("Ну что, теперь ты вооружен и можно валить гоблинов:)");
 
             Console.ReadLine();
@@ -66,19 +61,16 @@ namespace Game
             {
                 side = "Север";
                 Console.WriteLine("Ну погнали на север!");
-                
             }
             else if (userInput2 == "2")
             {
                 side = "Юг";
                 Console.WriteLine("Ну погнали на Юг!");
-                
             }
             else if (userInput2 == "3")
             {
                 side = "Запад";
                 Console.WriteLine("Ну погнали на Запад!");
-                
             }
             else if (userInput2 == "4")
             {
@@ -93,53 +85,36 @@ namespace Game
 
                 if (userInput3 == "1")
                 {
-
                     if (weapon == "Меч" | weapon == "Булава")
                     {
-
                         Console.WriteLine("Ты решаешь раздолбать дырочку своим устрашающим оружием, но" +
                             "стена оказалась куда прочнее и твое оружие ломается пополам");
 
                         weapon = null;
-                            
-                        
-
                     }
                     else if (weapon == "Маг")
                     {
-
                         Console.WriteLine("Ты пытаешься растянуть эту дырочку своими чародейскими " +
                             "способностями, но маг из тебя никакой и дырочка просто исчезла. Развернувшись, " +
                             "ты обнаруживаешь открытую дверь и выходишь (-1 к самооценке(здоровье))");
 
                         health = health - 1;
-
-
                     }
                     else if (weapon == "Лук")
                     {
-
                         Console.WriteLine("Ты решаешь выстрелить в это миниатюрное отверстие, промахиваешься " +
                             "и стрела рикошетит тебе прямо в левый глаз. Одним работающим глазом" +
                             "ты обнаруживаешь открытую дверь и выходишь забыв лук в хижине (-1 к здоровью");
 
                         health = health - 1;
                         weapon = null;
-
-
                     }
-
                 }
-
                 else if (userInput3 == "2")
-
                 {
                     Console.WriteLine("Печалька, бедушка.. с тобой:(");
-
                 }
-
             }
-
             Console.WriteLine("Идя себе спокойно вперед в поиске приключений, ты натыкаешься на разьяренного гоблина!");
             Console.ReadLine();
             Console.WriteLine("В недоумении, ты пытаешься сообразить: 1.Попробовать поговорить 2.Замочить грешного ");
@@ -155,43 +130,32 @@ namespace Game
 
                 if (userInput5 == "1")
                 {
-
                     Console.WriteLine("Не понимаю тебя дружок... как можно было решить поболтать.. ну ты умер((");
                 }
                 else if(userInput5 == "2")
                 {
-
                     Console.WriteLine("Не понимаю тебя дружок... как можно было решить поболтать.. ну ты умер((");
                 }
-
             }
             else if (userInput4 == "2")
             {
-
                 Console.WriteLine("Ты решаешь атаковать жалкого!!! Спартааааааа!!");
                 
-
                 if (weapon == "Маг")
                 {
-
                     Console.WriteLine("Ты наносишь невероятные любовные чары и гоблин улетает на лапах любви искать самку");
                     Console.ReadLine();
                     Console.WriteLine("Ты победил:) Иди купи пивка!");
-
                 }
                 else if( weapon == null )
                 {
-
                     Console.WriteLine("У тебя же нет оружия... ну ты умер((");
-
                 }
                 else if ( weapon=="Лесная фея")
                 {
                     Console.WriteLine("Ты взмахиваешь палочкой, превращаешься в птерадактеля и улетаешь пить вкусное пивко");
                 }
             }
-          
         }
-
     }
 }
